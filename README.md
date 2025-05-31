@@ -1,20 +1,20 @@
-# 📥 Excel Image Downloader
+# XL2Images
 
 A simple Python script that reads image URLs from an Excel file and downloads them to a local folder. Ideal for bulk downloading product images, datasets, or reference assets.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Reads `.xlsx` files using `openpyxl`
-- ✅ Downloads images via `requests`
-- ✅ Supports custom columns and row ranges
-- ✅ Skips invalid or missing URLs
-- ✅ Automatically names files from URL or assigns a fallback name
+- Reads `.xlsx` files using `openpyxl`
+- Downloads images via `requests`
+- Supports custom columns and row ranges
+- Skips invalid or missing URLs
+- Automatically names files from URL or assigns a fallback name
 
 ---
 
-## 📂 How It Works
+## How It Works
 
 1. Place your Excel file (e.g. `images.xlsx`) in the project directory.
 2. The script reads URLs from a specified column (default: `A`).
@@ -22,7 +22,7 @@ A simple Python script that reads image URLs from an Excel file and downloads th
 
 ---
 
-## 📄 Example Excel Layout
+## Example Excel Layout
 
 | A (Image URL)                     |
 |----------------------------------|
@@ -33,7 +33,7 @@ A simple Python script that reads image URLs from an Excel file and downloads th
 
 ---
 
-## 🛠 Configuration
+## Configuration
 
 Open the script and edit the following lines as needed:
 
@@ -46,25 +46,28 @@ DOWNLOAD_DIR = "downloaded_images"
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-1. **Clone the repo:**
+1. Clone the repo:
 
 ```bash
 git clone https://github.com/your-username/excel-image-downloader.git
 cd excel-image-downloader
 ```
 
-2. **Install dependencies:**
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> Or manually install:
-> `pip install openpyxl requests`
+Or manually install:
 
-3. **Run the script:**
+```bash
+pip install openpyxl requests
+```
+
+3. Run the script:
 
 ```bash
 python image_download_script.py
@@ -72,7 +75,7 @@ python image_download_script.py
 
 ---
 
-## 🧯 Error Handling
+## Error Handling
 
 * Invalid URLs are skipped with a warning.
 * Files are named automatically based on the URL path.
@@ -80,19 +83,17 @@ python image_download_script.py
 
 ---
 
-## 📄 License
+## License
 
 MIT License. Free to use, modify, and distribute.
 
 ---
 
-## 🙌 Contributions
+## Contributions
 
 Feel free to fork and submit pull requests for improvements or feature additions.
 
 ```
 
----
-
-Let me know if you'd like to generate a `requirements.txt` file or want this in a zip folder format!
+Let me know if you'd like a version customized to the **XL2Images** name or structured as a template repo!
 ```
